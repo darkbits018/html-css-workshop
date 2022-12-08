@@ -1,0 +1,153 @@
+body {
+    background-color: #fec7d7;
+}
+
+.post {
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.left {
+    float: left;
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 16px;
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+}
+
+.container {
+    width: 100%;
+}
+
+.image-sec1 {
+    width: 50%;
+    float: left;
+}
+
+.text-sec1 {
+    margin-left: 50%;
+    height: 500px;
+    margin-right: 5%;
+}
+
+#itachi {
+    margin-left: 40%;
+}
+
+.post-cont1 {
+    float: left;
+    width: 33%;
+    height: 300px;
+}
+
+.post-cont2 {
+    float: left;
+    width: 33%;
+    height: 300px;
+    margin-left: 0.5%;
+}
+
+.post-cont3 {
+    float: right;
+    width: 33%;
+    height: 300px;
+}
+
+.img-con {
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.text-con {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sec2 {
+    padding: 10%;
+}
+
+.sec3 {
+    padding: 10%;
+
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input, label {
+    display: block;
+}
+
+.form {
+    margin-left: 33%;
+}
+
+.left-foo {
+    float: left;
+    color: white;
+}
+
+.right-foo {
+    color: white;
+    padding: 16px;
+}
+
+#btn {
+    align-items: center;
+    background-color: #232946;
+    border-radius: 3.6rem;
+    color: #b8c1ec;
+    display: flex;
+    font-family: JetBrains Mono, 'Source Sans Pro';
+    font-size: 1.4rem;
+    font-weight: 700;
+    height: 3.9rem;
+    justify-content: center;
+    letter-spacing: 0.28rem;
+    line-height: 1.32;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    width: 15rem;
+    margin-left: 8%;
+}
